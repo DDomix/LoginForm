@@ -25,8 +25,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="main-agileinfo">
 			<div class="agileits-top">
 				<form action="#" method="post">
-					<input class="text" type="text" name="Username" placeholder="Felhasználónév" required="">
-					<input class="text email" type="email" name="email" placeholder="Email" required="">
+					<input class="text" type="text" name="Username" placeholder="Felhasználónév" required="" id="username" minlength="6" maxlength="30">
+					<input class="text email" type="email" name="email" placeholder="Email" required="" id="email">
 					<input class="text" type="password" name="password" placeholder="Jelszó" required="">
 					<div class="wthree-text">
 						<label class="anim">
@@ -59,5 +59,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</ul>
 	</div>
 	<!-- //main -->
+	<script src="/src/index.js"></script>
 </body>
 </html>
